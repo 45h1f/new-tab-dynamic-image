@@ -1,0 +1,26 @@
+{
+   "name": "New Tab Dynamic Image",
+   "description": "This is a extension which change background image when you open new tab",
+   "version": "1.0",
+   "manifest_version": 3,
+   "chrome_url_overrides": {
+      "newtab": "new.html"
+   },
+   "host_permissions": [
+     "https://source.unsplash.com/"
+   ],
+   "action": {
+      "default_icon": {
+         "16": "/images/image_16.png",
+         "32": "/images/image_32.png",
+         "48": "/images/image_48.png",
+         "128": "/images/image_128.png"
+      }
+   },
+   "icons": {
+      "16": "/images/image_16.png",
+      "32": "/images/image_32.png",
+      "48": "/images/image_48.png",
+      "128": "/images/image_128.png"
+   }
+}
